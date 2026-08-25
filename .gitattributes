@@ -1,0 +1,5 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Enforce LF line endings for shell scripts across all checkouts
+*.sh text eol=lf

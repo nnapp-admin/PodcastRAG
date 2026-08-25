@@ -1,0 +1,16 @@
+node_modules
+dist
+.output
+.nitro
+.vite
+.git
+.venv
+backend/.venv
+**/__pycache__
+**/*.pyc
+.env
+.env.local
+data/transcripts
+tsconfig.tsbuildinfo
+.wrangler
+.vinxi

@@ -1,0 +1,40 @@
+{
+  "request": {
+    "question": "What does Stewart Butterfield say about why communication is just as important as building a great product?",
+    "capability": "qa"
+  },
+  "result": {
+    "text": "Stewart Butterfield mentions that building a great product is not enough, and that you also have to put effort into communicating what the product does for the users, the problem it solves for them, and the outcome it will achieve for them [1]. He also compares building a product to a car, where you need to convince people why they should want a car instead of a horse [1].",
+    "capability": "qa",
+    "grounded": true,
+    "citations": [
+      {
+        "chunk_id": "d726286d-44c8-4b58-b23d-53c6e6b68d93",
+        "transcript_id": "ff54ee14-efc8-4f5b-810f-f78f61b2634b",
+        "episode_title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
+        "guest": "Stewart Butterfield",
+        "source_url": "https://www.youtube.com/watch?v=kLe-zy5r0Mk",
+        "published_at": "2025-11-20T00:00:00Z",
+        "chunk_index": 62,
+        "start_timestamp": null,
+        "end_timestamp": null,
+        "score": 0.746138,
+        "excerpt": "And the gist, just for people that aren't super familiar with it, but we'll link to it, is just it's not enough just to build a great product. You just as much have to put effort into communicating what this does for them, the problem this is solving for them, the outcome this is going to achieve for them. Is that a good way to think about it? **Stewart Butterfield** (01:10:28): Yeah. And again, comparing it to beer or cars, beer goes back to pre-civilization. Cars were obviously [inaudible 01:10:38], but at some point you had to convince people why they would want a car instead of a horse. For your new AI-based recruiting tool or your calendar app or whatever, there's some reason why you th"
+      }
+    ],
+    "tool_invocations": [
+      {
+        "name": "search_transcripts",
+        "arguments": {
+          "query": "What does Stewart Butterfield say about why communication is just as important as building a great product?"
+        },
+        "ok": true,
+        "latency_ms": 250.0
+      }
+    ],
+    "runtime": "local",
+    "provider": "ollama",
+    "model": "llama3.2:1b",
+    "latency_ms": 13049.7
+  }
+}
